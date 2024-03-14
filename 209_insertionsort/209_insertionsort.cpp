@@ -40,8 +40,12 @@ void insertionSort() {
             arr[j + 1] = arr[j]; //step4a
             j--; //step4b
         }
+
+		arr[j + 1] = temp; //step5
     }
 }
+
+
     
 int main()
 {
