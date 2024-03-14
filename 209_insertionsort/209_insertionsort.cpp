@@ -9,6 +9,12 @@ void insertionSort() {
         temp = arr[i]; //step2
 
         j = i - 1; //step3
+
+        while (j >= 0 && arr[j] > temp); //step4
+        {
+            arr[j + 1] = arr[j]; //step4a
+            j--; //step4b
+        }
     }
 }
     
