@@ -6,6 +6,7 @@ void insertionSort() {
     int arr[40];
 
     for (i = 1; i <= n - 1; i++) { //step1
+        temp = arr[i]; //step2
     }
 }
     
