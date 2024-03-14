@@ -7,6 +7,8 @@ void insertionSort() {
 
     for (i = 1; i <= n - 1; i++) { //step1
         temp = arr[i]; //step2
+
+        j = i - 1; //step3
     }
 }
     
